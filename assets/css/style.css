@@ -32,6 +32,7 @@ section {
     margin-right: -12px;
 }
 
+/******* flex ans center property *******/
 .d-flex {
     display: flex;
 }
@@ -40,14 +41,25 @@ section {
     align-content: center;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+/* width property */
 .w-100 {
     width: 100%;
 }
 
+/******* background-color *******/
 .bg-color {
     background-color: #0C0B0B;
 }
 
+/******* margin & padding *******/
 .mb-24 {
     margin-bottom: 24px;
 }
@@ -65,14 +77,7 @@ section {
     padding: 60px;
 }
 
-.justify-content-center {
-    justify-content: center;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
-
+/******* position property *******/
 .position-relative {
     position: relative;
 }
@@ -93,8 +98,6 @@ section {
     justify-content: space-between;
     position: relative;
 }
-
-
 
 .liquidity {
     font-family: 'Poppins', sans-serif;
@@ -268,7 +271,6 @@ section {
     padding: 15px 15px;
     white-space: nowrap;
     background-color: rgba(12, 12, 12, 1);
-    ;
 }
 
 .table-row {
