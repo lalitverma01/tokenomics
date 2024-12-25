@@ -183,7 +183,7 @@ section {
     height: 50px;
     background: #00E396;
     margin-bottom: 15px;
-    border-radius: 4px;
+    border-radius: 4px; 
 }
 
 .Sed {
@@ -231,9 +231,9 @@ section {
     inset: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right:1px;
     background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
